@@ -1,0 +1,490 @@
+body {
+  padding: 0;
+  border: 0 ;
+  background-color: #edefed;
+  z-index: -1;
+}
+
+.cercle { //placement des élements uniquement en pixels// //cercle créé directement en css//
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 575px;
+  top: 310px;
+  background-color: white;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.triangle {
+  width: 40px;
+  height: 80px;
+  position: absolute;
+  left: 28px;
+  top: 6px;
+  opacity: 0.6;
+}
+
+.logobnb {
+  position: absolute ;
+  top: 0;
+  left: 200px;
+  width: 200px;
+  height: 80px;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  top: 25px ;
+  left: -180px;
+  width: 98px;
+  height: 30px;
+  z-index: 1;
+
+
+}
+
+
+.main {
+
+position: relative;
+top: -20px;
+height: 700px;
+width: 100%;
+z-index: 0;
+
+}
+
+.image {
+  width: 100%;
+  height: 700px;
+  z-index: 0;
+  position: absolute ;
+  bottom: 104px;
+
+}
+
+
+
+.connexion {
+  width: 105px;
+  height: 61px;
+  vertical-align: center;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Nunito', sans-serif, white;
+  right: 0;
+  font-color: white;
+  top: 25px;
+  font-size: 14px;
+  color: white;
+
+
+}
+
+.inscription{
+  position: inline-block;
+  width: 105px;
+  height: 61px;
+  font-family: 'Nunito', sans-serif, white;
+  vertical-align: center;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  left: -105px;
+  bottom: 0;
+
+
+}
+
+.aide {
+  height: 61px;
+  width: 74px;
+  font-family: 'Nunito', sans-serif, white;
+  vertical-align: center;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  position: inline-block ;
+  bottom: 0;
+  right: 105px;
+
+
+}
+
+.Devenez {
+  border-radius: 2px;
+  border: 2px solid white;
+  font-family: 'Nunito', sans-serif, white;
+  vertical-align: center;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  display: inline-block;
+  bottom: 45px;
+  right: 74px;
+  bottom: 33px;
+  width: 120px;
+  height: 30px;
+  box-sizing: border-box;
+  padding-top: 4px;
+
+
+}
+
+.vivez {
+  position: absolute;
+  bottom: 488px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+
+}
+
+.description {
+  position: absolute;
+  bottom: 435px;
+  height: 20px;
+  font-family: 'Nunito', sans-serif, white;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.ou {
+  width: 380px;
+  height: 44px;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  left: 160px;
+  bottom: 130px;
+  z-index: 2;
+
+
+}
+
+.oumot {
+  position: absolute;
+  color: #484848;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  top: -3px;
+  left: 10px ;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.fleche {
+  position: absolute;
+  width: 302px;
+  height: 44px;
+  left:540px;
+  z-index: 2;
+  bottom: 130px;
+  border-top: 1px solid #c4c4c4 ;
+  border-bottom: 1px solid #c4c4c4 ;
+  border-right: 1px solid #c4c4c4 ;
+  background-color: white ;
+  border-left: 1px solid #c4c4c4 ;
+}
+
+.arrivée {
+  position: absolute;
+  left: 12px;
+  vertical-align: center;
+  color: #484848;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  top:12px;
+  opacity: 0.8;
+
+}
+.départ {
+  position: absolute;
+  left: 150px;
+  top: 12px;
+  color: #484848;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.fleche1 {
+  position: absolute ;
+  left: 110px;
+  top: 13px;
+  width: 31px;
+  height: 21px;
+  opacity: 0.8 ;
+
+}
+.voyage {
+  position: absolute;
+  left: 0px;
+  top: 12px;
+  color: #484848;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  opacity: 0.9;
+}
+
+.voyageur {
+  position: absolute;
+  width: 146px;
+  height: 44px;
+  left: 842px;
+  z-index: 2;
+  bottom: 130px;
+  border: 1px solid #c4c4c4;
+  background-color: white;
+}
+
+.recherche {
+  position: absolute;
+  width:141px;
+  height: 44px;
+  border-bottom: 1px solid #fa0008;
+  background-color: #ff7e82;
+  left: 988px;
+  bottom: 130px;
+  z-index: 2;
+  border-top: 1px solid #ff7e82;
+  border-left:1px solid #ff7e82;
+  border-right:1px solid #ff7e82;
+
+}
+
+.recherchez{
+  position: absolute;
+  left: 25px;
+  top: 12px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+
+}
+
+
+}
+
+.footer {
+  position: absolute ;
+  bottom: 104px;
+  width: 100% ;
+  height: 104px;
+
+  background-color: rgba(0,0,0,0.6);
+  opacity: 25%;
+
+}
+
+.block1 {
+  position: absolute;
+  bottom: -290px;
+  left: 120px;
+  width: 1020px;
+  height: 344px;
+  z-index: 0;
+  background-color: white;
+}
+
+.imageb1 {
+  width: 656px;
+  height:344px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index1;
+}
+
+.texte1 {
+  width: 244.44px;
+  height: 89px;
+  right: 83px;
+  top: 60px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.1;
+  z-index: 1;
+  position: absolute;
+  color: #484848;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.gagnez {
+  width: 266px;
+  height: 30px;
+  font-family: 'Nunito', sans-serif ;
+  color:#484848;
+  font-size: 16px;
+  right: 57px;
+  top:170px;
+  position: absolute;
+  z-index: 1;
+  line-height: 1.43;
+}
+
+.estimez {
+  width: 266px;
+  height: 42px;
+  position: absolute;
+  z-index: 1;
+  background-color: #007a87;
+  border-bottom-color:1px solid #004f58;
+  border-top-color:1px solid #007a87;
+  border-left-color:1px solid #007a87;
+  border-right-color:1px solid #007a87;
+  border-radius: 2px;
+  top: 250px;
+  right: 57px;
+
+}
+
+.revenus {
+  font-family: 'Nunito', sans-serif ;
+  font-weight: bold;
+  line-height: 1.43;
+  color: white;
+  vertical-align: middle;
+  bottom: -7px;
+  left: 49px;
+  position: absolute;
+
+}
+
+.nouveau {
+  width: 321px;
+  height: 41px;
+  text-align: center;
+  bottom: -90px;
+  position: absolute;
+  left: 346px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #484848;
+  font-size: 29px;
+  line-height: 1.1;
+  font-weight: bold;
+
+}
+.decouvrez {
+  position:relative;
+  top: 1080px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif ;
+  line-height: 1.43;
+  color: #484848;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.san {
+  top:1120px;
+  position: absolute;
+  width: 316px;
+  height: 344px;
+  left: 156px;
+  background-color: blue;
+}
+
+.new {
+  top:1120px;
+  position: absolute;
+  width: 316px;
+  height: 344px;
+  left: 496px;
+  background-color: blue;
+}
+
+.londres {
+  top:1120px;
+  position: absolute;
+  width: 316px;
+  height: 344px;
+  left: 836px;
+  background-color: blue;
+}
+.francisco {
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 316px;
+  height: 344px;
+
+}
+.york {
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 316px;
+  height: 344px;
+}
+.london {
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 316px;
+  height: 344px;
+}
+
+.sanfrancisco {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.1 ;
+  color: white;
+  position: absolute;
+  text-align: center ;
+  top: 158px;
+  height: 41px;
+  width: 206px;
+  left: 60px;
+  z-index: 2;
+}
+.newyork {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.1 ;
+  color: white;
+  position: absolute;
+  text-align: center ;
+  top: 158px;
+  height: 41px;
+  width: 206px;
+  left: 60px;
+  z-index: 2;
+}
+
+.londres2 {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.1 ;
+  color: white;
+  position: absolute;
+  text-align: center ;
+  top: 158px;
+  height: 41px;
+  width: 206px;
+  left: 60px;
+  z-index: 2;
+}
